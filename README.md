@@ -11,7 +11,7 @@
 - edit file `status` ( jika kalian mau )
 - enjoy.
  
-![Screenshot](https://github.com/KutuMobaa/DISABLE_CHARGE/assets/124151847/ad895aad-9622-40a2-b2f3-5f240c6c6ebf)
+![alt text](https://github.com/KutuMobaa/DISABLE_CHARGE/blob/main/Screenshot_20240210-014203823.jpg?raw=true)
 
 [Download](https://t.me/kutu_Moba57)
 
