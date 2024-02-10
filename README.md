@@ -27,5 +27,5 @@
 
 # tambahan
 - ***jangan pernah merubah file `status` selain angka. jika ada `spasi` diantara `enable` dan angka jangan hilangkan `spasi` apapun alasannya karena akan merusak system kerja module***
-- jika file `status` tidak ada di `/storage/emulated/0/Android`, buat manual dengan isi `enable=80`
+- jika file `status` tidak ada di `/storage/emulated/0/Android`, buat manual dengan isi `enable=80` atau `enable 80`
 - `Module ini masih tahap beta, jadi jika tidak bekerja di device anda silahkan hapus module lalu reboot system`
