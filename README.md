@@ -18,7 +18,6 @@
 
 ![alt text](https://github.com/KutuMobaa/DISABLE_CHARGE/blob/main/Screenshot_20240210-014203823.jpg?raw=true)
 
-[Download](https://t.me/kutu_Moba57/30021)
 
 - suport KSU ? We don't know yet.dwyor
 - `root only`
