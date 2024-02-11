@@ -7,7 +7,7 @@
 # setting
 - masuk ke directory `/storage/emulated/0/Android` lalu cari file bernama `status`, edit file tersebut dengan cara ubah angka sesuai keinginan kalian.
 - *contoh :*
-![alt text](https://github.com/KutuMobaa/DISABLE_CHARGE/blob/main/Screenshot_20240210-041817242.jpg?raw=true)
+![alt text](https://github.com/KutuMobaa/DISABLE_CHARGE/blob/main/Screenshot_20240211-175355302.jpg?raw=true)
 
 # cara penggunaan
 - flash
