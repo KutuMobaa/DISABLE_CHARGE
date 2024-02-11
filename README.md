@@ -19,3 +19,7 @@
 **suport KSU ? We don't know yet.dwyor**
 - `root only`
 - *Download melalui telegram official untuk keaslian module dan gratis*
+#
+#
+#
+download module magisk di [Telegram](https://t.me/kutu_Moba57)
