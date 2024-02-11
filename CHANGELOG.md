@@ -20,12 +20,12 @@
 - setelah 7-10 detik device berhasil menyala, module akan membaca angka dari isi file `status` menggunakan `cat /storage/emulated/0/Android/status`.
 - lalu module akan membandingkan nilai yang keluar dari file ` status` dengan level battery saat ini.
 - 
- ***utama**
-- jika nilai `status` sama atau lebih besar dari level battery, maka module akan membuat pengecasan otomatis berhenti.
-- jika nilai `status` lebih kecil dari level battery, maka module akan membuat device dapat melakukan pengecasan secara normal
+ ***utama***
+- jika level battery saati ini sama atau lebih besar dari nilai `status`, maka module akan membuat pengecasan otomatis berhenti.
+- jika level battery saat ini lebih kecil dari nilai `status`, maka module akan membuat device dapat melakukan pengecasan secara normal.
 
 
-- suport KSU ? We don't know yet.dwyor
+**suport KSU ? We don't know yet.dwyor**
 - `root only`
 - *Download melalui telegram official untuk keaslian module dan gratis*
 
