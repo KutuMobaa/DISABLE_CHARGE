@@ -1,4 +1,39 @@
-# DISABLE_CHARGE
+# DISABLE_CHARGE V 5.8
+
+# default
+- menghentikan pengecasan di saat level battery mencapai 80% dan kembali melakukan pengecasan ketika level battery 79%.
+- *default :*
+  ![alt text](https://github.com/KutuMobaa/DISABLE_CHARGE/blob/main/Screenshot_20240210-041738146.jpg?raw=true)
+# setting
+- masuk ke directory `/storage/emulated/0/Android` lalu cari file bernama `status`, edit file tersebut dengan cara ubah angka sesuai keinginan kalian.
+- *contoh :*
+![alt text](https://github.com/KutuMobaa/DISABLE_CHARGE/blob/main/Screenshot_20240210-041817242.jpg?raw=true)
+
+# cara penggunaan
+- flash
+- reboot system
+- edit file `status` ( jika kalian mau )
+- enjoy.
+
+# CARA KERJA MODULE
+- disaat module di flash, module akan membuat file `status` di directoty `/storage/emulated/0/Android` dengan isi `80` sebagai nilai default batas maksimal battery melakukan pengecasan.
+- setelah 7-10 detik device berhasil menyala, module akan membaca angka dari isi file `status` menggunakan `cat /storage/emulated/0/Android/status`.
+- lalu module akan membandingkan nilai yang keluar dari file ` status` dengan level battery saat ini.
+- 
+ ***utama**
+- jika nilai `status` sama atau lebih besar dari level battery, maka module akan membuat pengecasan otomatis berhenti.
+- jika nilai `status` lebih kecil dari level battery, maka module akan membuat device dapat melakukan pengecasan secara normal
+
+
+- suport KSU ? We don't know yet.dwyor
+- `root only`
+- *Download melalui telegram official untuk keaslian module dan gratis*
+
+#
+#
+#
+#
+# DISABLE_CHARGE V 5.7
 
 # default
 - menghentikan pengecasan di saat level battery mencapai 80% dan kembali melakukan pengecasan ketika level battery 79%.
