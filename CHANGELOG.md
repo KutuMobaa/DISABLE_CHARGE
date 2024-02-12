@@ -5,24 +5,24 @@
 - *default :*
   ![alt text](https://github.com/KutuMobaa/DISABLE_CHARGE/blob/main/Screenshot_20240211-175320736.jpg?raw=true)
 # setting
-- masuk ke directory `/storage/emulated/0/Android` lalu cari file bernama `status`, edit file tersebut dengan cara ubah angka sesuai keinginan kalian.
+- masuk ke directory `/storage/emulated/0/Android` lalu cari file bernama `disable_charge`, edit file tersebut dengan cara ubah angka sesuai keinginan kalian.
 - *contoh :*
 ![alt text](https://github.com/KutuMobaa/DISABLE_CHARGE/blob/main/Screenshot_20240211-175355302.jpg?raw=true)
 
 # cara penggunaan
 - flash
 - reboot system
-- edit file `status` ( jika kalian mau )
+- edit file `disable_charge` ( jika kalian mau )
 - enjoy.
 
 # CARA KERJA MODULE
-- disaat module di flash, module akan membuat file `status` di directoty `/storage/emulated/0/Android` menggunakan `printf "80" > /storage/emulated/0/Android/status`. (angka `80` adalah nilai default batas maksimal battery melakukan pengecasan yang dapat di ubah sesuai keinginan ).
-- setelah 7-10 detik device berhasil menyala, module akan membaca angka dari isi file `status` menggunakan `cat /storage/emulated/0/Android/status`.
-- lalu module akan membandingkan nilai yang keluar dari file ` status` dengan level battery saat ini.
+- disaat module di flash, module akan membuat file `disable_charge` di directoty `/storage/emulated/0/Android` menggunakan `printf "80" > /storage/emulated/0/Android/disable_charge`. (angka `80` adalah nilai default batas maksimal battery melakukan pengecasan yang dapat di ubah sesuai keinginan ).
+- setelah 7-10 detik device berhasil menyala, module akan membaca angka dari isi file `disable_charge` menggunakan `cat /storage/emulated/0/Android/disable_charge`.
+- lalu module akan membandingkan nilai yang keluar dari file ` disable_charge` dengan level battery saat ini.
 - 
  ***utama***
-- jika level battery saati ini sama atau lebih besar dari nilai `status`, maka module akan membuat pengecasan otomatis berhenti.
-- jika level battery saat ini lebih kecil dari nilai `status`, maka module akan membuat device dapat melakukan pengecasan secara normal.
+- jika level battery saati ini sama atau lebih besar dari nilai `disable_charge`, maka module akan membuat pengecasan otomatis berhenti.
+- jika level battery saat ini lebih kecil dari nilai `disable_charge`, maka module akan membuat device dapat melakukan pengecasan secara normal.
 
 
 **suport KSU ? We don't know yet.dwyor**
